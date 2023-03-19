@@ -1,0 +1,10 @@
+---
+export interface Props {
+    href: string,
+    filled?: boolean,
+    bordered?: boolean,
+}
+
+const { href, filled, bordered } = Astro.props as Props;
+---
+
